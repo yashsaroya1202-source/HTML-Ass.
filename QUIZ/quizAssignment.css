@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: rgb(0, 62, 128);
+    color: rgb(237, 237, 230);
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+span{
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+
+#correct1, #incorrect1,
+#correct2, #incorrect2,
+#correct3, #incorrect3,
+#correct4, #incorrect4,
+#correct5, #incorrect5{
+    display: none;
+}
+
+
+#text:checked ~ #correct1{
+    display: block;
+}
+
+#trainer:checked ~ #incorrect1,
+#link:checked ~ #incorrect1,
+#tool:checked ~ #incorrect1{
+    display: block;
+}
+
+
+#tim:checked ~ #correct2{
+    display: block;
+}
+
+#marc:checked ~ #incorrect2,
+#brendan:checked ~ #incorrect2,
+#hakon:checked ~ #incorrect2{
+    display: block;
+}
+
+
+#css3:checked ~ #correct3{
+    display: block;
+}
+
+#html3:checked ~ #incorrect3,
+#javascript3:checked ~ #incorrect3,
+#python3:checked ~ #incorrect3{
+    display: block;
+}
+
+
+#javascript4:checked ~ #correct4{
+    display: block;
+}
+
+#html4:checked ~ #incorrect4,
+#css4:checked ~ #incorrect4,
+#python4:checked ~ #incorrect4{
+    display: block;
+}
+
+
+#Nayab:checked ~ #correct5{
+    display: block;
+}
+
+#dushyant:checked ~ #incorrect5,
+#Manohar:checked ~ #incorrect5,
+#Bhupinder:checked ~ #incorrect5{
+    display: block;
+}
+
+
+#correct1, #correct2, #correct3,
+#correct4, #correct5{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+
+#incorrect1, #incorrect2, #incorrect3,
+#incorrect4, #incorrect5{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
